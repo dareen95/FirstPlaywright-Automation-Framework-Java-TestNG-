@@ -19,35 +19,6 @@ The project is fully integrated with **Allure Report** for a rich, interactive d
 
 ### **How to Run & View Reports:**
 
-1.  **Run Tests:**
-    ```bash
-    mvn clean test
-    ```
-
-2.  **Generate Report:**
-    ```bash
-    mvn allure:serve
-    ```
-
----
-
-## 🛠 Project Structure
-| Component | Description |
-| :--- | :--- |
-| **Pages** | Encapsulated UI locators and actions. |
-| **Base** | Browser initialization and configuration. |
-| **Tests** | Functional end-to-end test scripts. |
-
----
-
-## ✨ Key Features
-* **POM Design**: Clean separation between test logic and UI elements.
-* **Auto-Screenshots**: Automatically captured and attached to reports on failure.
-* **Ready-to-Run**: Fully configured with Maven and Allure.
-
----
-
-## ⚙️ Prerequisites
-* **Java JDK 17+**
-* **Maven** (Added to System Path)
-* **Allure CLI** (Added to System Path)
+1. **Run Tests:**
+   ```bash
+   mvn clean test
