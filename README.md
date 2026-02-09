@@ -23,4 +23,8 @@ The project is fully integrated with **Allure Report** for a rich, interactive d
    ```bash
    mvn clean test
    Generate Report:Bashmvn allure:serve
-🛠 Project StructureComponentDescriptionPagesEncapsulated UI locators and actions.BaseBrowser initialization and configuration.TestsFunctional end-to-end test scripts.
+🛠 ##Project Structure
+ComponentDescription
+PagesEncapsulated UI locators 
+and actions.BaseBrowser initialization and configuration.
+##TestsFunctional end-to-end test scripts.
