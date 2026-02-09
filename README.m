@@ -1,6 +1,6 @@
 # 🚀 Playwright Java E2E Automation Project
 
-This project implements a professional **End-to-End (E2E)** automation suite for the [SauceDemo](https://www.saucedemo.com/) website using **Playwright Java**. 
+This project implements a professional **End-to-End (E2E)** automation suite for the [SauceDemo](https://www.saucedemo.com/) website using **Playwright Java**. The framework follows the **Page Object Model (POM)** for maximum maintainability.
 
 ---
 
@@ -32,18 +32,18 @@ The project is fully integrated with **Allure Report** for a rich, interactive d
 ---
 
 ## 🛠 Project Structure
-| Folder | Description |
+| Component | Description |
 | :--- | :--- |
-| `pages/` | Page Objects (Locators & Actions) |
-| `base/` | Browser Setup & Teardown (BaseTest) |
-| `tests/` | Functional Test Scripts |
+| **Pages** | Encapsulated UI locators and actions. |
+| **Base** | Browser initialization and configuration. |
+| **Tests** | Functional end-to-end test scripts. |
 
 ---
 
 ## ✨ Key Features
-* **POM Design**: Clean separation between code and UI.
-* **Auto-Screenshots**: Captured automatically on failure.
-* **Maven-Ready**: One-click execution via CLI.
+* **POM Design**: Clean separation between test logic and UI elements.
+* **Auto-Screenshots**: Automatically captured and attached to reports on failure.
+* **Ready-to-Run**: Fully configured with Maven and Allure.
 
 ---
 
